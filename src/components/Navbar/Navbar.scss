@@ -1,0 +1,23 @@
+.navBarContainer{
+    padding-inline: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    .navBarItems{
+        display: flex;
+        flex-direction: row;
+        .items{
+            margin-inline: 20px;
+            cursor: pointer;
+        }
+    }
+    .navBarIcons{
+        display: flex;
+        align-items: center;
+    }
+    .title{
+        display: flex;
+        align-items: center;
+    }
+}
