@@ -1,0 +1,59 @@
+.introContanier{
+    padding-inline: 100px;
+    display: flex;
+    margin-top: 100px;
+    .introTitle{
+        color: #5b5b5b;
+        font-size: 14px;
+        font-weight: bold;
+        padding: 8px 16px;
+        border-radius: 50px;
+        letter-spacing: 0.2px;
+    }
+    .introHeading{
+        color: #212121;
+        font-size: 2.8em;
+        margin: 24px 0;
+    }
+    .introAbout{
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 1.5;
+        color: #5b5b5b;
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+
+    }
+    .introButtonContainer{
+        box-sizing: border-box;
+        margin-top: 1.5rem!important;
+        display: block;
+        margin-inline: 15px;
+        .introButton{
+            font-weight: bold;
+            border-radius: 50px;
+            padding: 13px 29px;
+            font-size: 14px;
+            line-height: normal;
+            overflow: hidden;
+            transition: all 0.4s ease;
+        }
+        .blog{
+            margin-left: 5px;
+            background: #474559;
+            color: #fff;
+        }
+        .download{
+            border-style: none;
+            background: #eee;
+            color: #5b5b5b;
+        }
+    }
+    .introImage{
+        height: 280px;
+        width: auto;
+    }
+}

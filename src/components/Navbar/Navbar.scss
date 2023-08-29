@@ -7,12 +7,14 @@
     .navBarItems{
         display: flex;
         flex-direction: row;
+        color: gray;
+        font-weight: 900;
         .items{
             margin-inline: 20px;
             cursor: pointer;
         }
     }
-    .navBarIcons{
+    .navIcons{
         display: flex;
         align-items: center;
     }
