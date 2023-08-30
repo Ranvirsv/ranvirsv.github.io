@@ -1,9 +1,13 @@
 import React from "react";
+import "./slider.scss";
 
-export default function slider() {
+export default function Slider() {
   return (
     <>
-      <div>slider</div>
+      <div className="sliderDiv">
+        <div className="sliderTitle">Some technologies I am experienced in</div>
+        <div className="sliderWindow"></div>
+      </div>
     </>
   );
 }
