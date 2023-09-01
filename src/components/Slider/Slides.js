@@ -13,6 +13,7 @@ import Linux from "../../assets/Linux.png";
 import llvm from "../../assets/LLVM-Logo.png";
 import matplot from "../../assets/matplot.png";
 import MLIR from "../../assets/MLIR.png";
+import numpy from "../../assets/numpy.png";
 import objc from "../../assets/obj-c.png";
 import pandas from "../../assets/pandas-logo-300.png";
 import psql from "../../assets/PSQL.png";
@@ -29,7 +30,7 @@ export default function Slides() {
     dots: true,
     infinite: true,
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 3000,
     slidesToShow: 4,
     slidesToScroll: 4,
   };
@@ -55,6 +56,7 @@ export default function Slides() {
             llvm,
             matplot,
             MLIR,
+            numpy,
             objc,
             pandas,
             psql,
@@ -68,7 +70,7 @@ export default function Slides() {
           ].map((elem) => (
             <>
               <div>
-                <img src={elem} className="sliderImage" />
+                <img src={elem} className="sliderImage" alt="images of tools" />
               </div>
             </>
           ))}
