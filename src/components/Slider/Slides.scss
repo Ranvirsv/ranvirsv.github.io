@@ -1,0 +1,27 @@
+.sliderTitleDiv{
+    margin-top: 100px;
+    margin-inline: 100px;
+    text-align: center;
+    .sliderTitle{
+        color: #353535;
+        font-size: 2.4em;
+        font-weight: bold;
+    }
+}
+.sliderDiv{
+    text-align: center;
+    .slickSlider{
+        display: flex;
+        align-items: center;
+        .sliderImage{
+            padding-left: 100px;
+            width: 200px;
+            height: auto;
+        }
+    }
+}
+
+.slick-slider .slick-track, .slick-slider .slick-list {
+    display: flex;
+    align-items: center;
+}
